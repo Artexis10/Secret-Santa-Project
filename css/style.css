@@ -1,6 +1,6 @@
 :root {
     --Primary-Red: #A31123;
-    --Secondary-Red-Alfa: #a3112270;
+    --Secondary-Red-Alpha: #a3112270;
     --Santa-Green: #0A9F99;
     --ColorWhite: #fff;
     --Colorgrey: #8f8f8f;
@@ -106,7 +106,7 @@ h1 {
 /* Testimonials */
 
 #testimonials {
-    background-color: var(--Secondary-Red-Alfa);
+    background-color: var(--Secondary-Red-Alpha);
     color: var(--ColorWhite);
     text-align: center;
 }
@@ -126,7 +126,7 @@ h1 {
 }
 
 .press {
-    background-color: var(--Secondary-Red-Alfa);
+    background-color: var(--Secondary-Red-Alpha);
     text-align: center;
     padding: 3% 0;
 }
