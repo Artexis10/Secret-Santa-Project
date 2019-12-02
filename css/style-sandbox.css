@@ -1,0 +1,40 @@
+:root{
+    --colorPrimaryDark: #151d25;
+    --colorBlackTrans: #00000010;
+    --colorPrimary: #27364a;
+    --colorSecondary: #9fb0a5;
+    --colorWhite: #fff;
+}
+
+.container-fluid {
+    background-color: var(--colorPrimaryDark);
+    color: var(--colorWhite);
+}
+
+.col {
+    background-color: var(--colorBlackTrans);
+}
+
+.col-6 {
+    background-color: var(--colorPrimary);
+    border: 1px solid var(--colorWhite);
+    color: var(--colorWhite);
+}
+
+.col-3 {
+    background-color: var(--colorPrimaryDark);
+    border: 1px solid var(--colorWhite);
+    color: var(--colorWhite);
+}
+
+.col-md-6 {
+    background-color: var(--colorBlackTrans);
+    border: 1px solid var(--colorWhite);
+    color: var(--colorWhite);
+}
+
+.col-md-4 {
+    background-color: var(--colorBlackTrans);
+    border: 1px solid var(--colorSecondary);
+    color: var(--colorWhite);
+}
